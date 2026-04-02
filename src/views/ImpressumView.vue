@@ -1,0 +1,78 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
+
+<template>
+  <div class="min-h-screen bg-white">
+    <div class="bg-gray-50 border-b">
+      <div class="container mx-auto px-4 py-4">
+        <RouterLink to="/" class="inline-flex items-center text-brand-primary hover:text-brand-primary/80">
+          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Zurück zur Startseite
+        </RouterLink>
+      </div>
+    </div>
+    <div class="container mx-auto px-4 py-16">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-4xl font-bold text-gray-900 mb-8">Impressum</h1>
+        <div class="prose prose-lg">
+          <h2>Kontaktadresse</h2>
+          <p>
+            JP Codelabs GmbH<br />
+            Im Kleinen Eschle 15<br />
+            78054 Villingen-Schwenningen<br />
+            Deutschland
+          </p>
+
+          <h2>Vertreten durch</h2>
+          <p>
+            Geschäftsführer: Paul Dederer<br />
+            Geschäftsführer: John Marco Dola
+          </p>
+
+          <h2>Kontakt</h2>
+          <p>
+            E-Mail: contact.me@jpcodelabs.de<br />
+            Telefon: +49 1575 5678283
+          </p>
+
+          <h2>Registereintrag</h2>
+          <p>
+            Handelsregister: Amtsgericht Freiburg<br />
+            HRB 730741
+          </p>
+
+          <h2>Umsatzsteuer-ID</h2>
+          <p>
+            Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE367588952
+          </p>
+
+          <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+          <p>
+            Paul Dederer<br />
+            John Marco Dola
+          </p>
+
+          <h2>Plattform der EU-Kommission zur Online-Streitbeilegung</h2>
+          <p>
+            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+            <a href="https://ec.europa.eu/consumers/odr" target="_blank" class="text-blue-600 hover:text-blue-800">
+              https://ec.europa.eu/consumers/odr
+            </a>
+          </p>
+
+          <h2>Verbraucherstreitbeilegung/Universalschlichtungsstelle</h2>
+          <p>
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+          </p>
+
+          <p class="mt-8">
+            <strong>Hinweis:</strong> Dieses Impressum gilt für Recall-Koordinator, betrieben durch JP Codelabs GmbH.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
