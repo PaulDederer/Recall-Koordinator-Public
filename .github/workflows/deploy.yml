@@ -28,8 +28,6 @@ jobs:
 
       - name: Build with env
         run: |
-          echo "VITE_N8N_AUTH_TOKEN=${{ secrets.VUE_APP_N8N_AUTH_TOKEN }}" >> .env.production
-          echo "VITE_N8N_WEBHOOK=${{ secrets.VUE_APP_N8N_WEBHOOK }}" >> .env.production
           npm run build
 
       - name: Check env file

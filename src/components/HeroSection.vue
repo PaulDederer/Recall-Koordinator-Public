@@ -51,7 +51,7 @@ onUnmounted(() => {
           </div>
 
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href="#booking" class="btn text-center justify-center">
+            <a href="mailto:contact.me@jpcodelabs.de?subject=Pilotpraxis%20Bewerbung%20–%20RecallKoordinator" class="btn text-center justify-center">
               <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>

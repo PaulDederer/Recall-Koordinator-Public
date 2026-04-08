@@ -22,7 +22,7 @@
           Melden Sie sich jetzt als Pilotpraxis an und gestalten Sie die Zukunft der Patienten-Erinnerung mit.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href="#booking" class="group inline-flex items-center px-10 py-5 bg-white text-purple-600 font-bold text-xl rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300">
+          <a href="mailto:contact.me@jpcodelabs.de?subject=Pilotpraxis%20Bewerbung%20–%20RecallKoordinator" class="group inline-flex items-center px-10 py-5 bg-white text-purple-600 font-bold text-xl rounded-2xl shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300">
             <span class="mr-3">Kostenlos als Pilotpraxis starten</span>
             <svg class="w-6 h-6 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

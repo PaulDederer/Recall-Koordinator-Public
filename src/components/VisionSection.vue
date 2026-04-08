@@ -69,7 +69,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#booking" class="btn inline-flex justify-center">Kostenlos als Pilotpraxis starten</a>
+          <a href="mailto:contact.me@jpcodelabs.de?subject=Pilotpraxis%20Bewerbung%20–%20RecallKoordinator" class="btn inline-flex justify-center">Kostenlos als Pilotpraxis starten</a>
           <a href="#ablauf" class="btn btn-variant-secondary inline-flex justify-center">So funktioniert's</a>
         </div>
       </div>

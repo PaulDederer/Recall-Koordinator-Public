@@ -6,9 +6,7 @@ import HowItWorksSection from '../components/HowItWorksSection.vue'
 import BenefitsSection from '../components/BenefitsSection.vue'
 import PilotProgramSection from '../components/PilotProgramSection.vue'
 import ObjectionsSection from '../components/ObjectionsSection.vue'
-import DemoSection from '../components/DemoSection.vue'
 import CTASection from '../components/CTASection.vue'
-import BookingForm from '../components/BookingForm.vue'
 </script>
 
 <template>
@@ -20,8 +18,6 @@ import BookingForm from '../components/BookingForm.vue'
     <BenefitsSection />
     <PilotProgramSection />
     <ObjectionsSection />
-    <!-- <DemoSection /> -->
     <CTASection />
-    <BookingForm />
   </main>
 </template>

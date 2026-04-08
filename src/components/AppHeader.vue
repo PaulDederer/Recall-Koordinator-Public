@@ -8,7 +8,7 @@ const navItems = [
   { name: "So funktioniert's", href: '#ablauf' },
   { name: "Ihre Vorteile", href: '#vorteile' },
   { name: "FAQ", href: "#objections"},
-  { name: 'Kontakt', href: '#booking' }
+  { name: 'Kontakt', href: 'mailto:contact.me@jpcodelabs.de?subject=Pilotpraxis%20Bewerbung%20–%20RecallKoordinator' }
 ]
 
 const activeSection = ref('')
@@ -42,7 +42,7 @@ const activeSection = ref('')
       </nav>
 
       <!-- CTA Button -->
-      <a href="#booking" class="btn hidden md:inline-flex">Jetzt als Pilotpraxis starten</a>
+      <a href="mailto:contact.me@jpcodelabs.de?subject=Pilotpraxis%20Bewerbung%20–%20RecallKoordinator" class="btn hidden md:inline-flex">Jetzt als Pilotpraxis starten</a>
 
       <!-- Mobile Menu Button -->
       <button class="md:hidden" @click="mobileNavOpen = !mobileNavOpen">
@@ -65,7 +65,7 @@ const activeSection = ref('')
           {{ item.name }}
         </a>
         <a
-          href="#booking"
+          href="mailto:contact.me@jpcodelabs.de?subject=Pilotpraxis%20Bewerbung%20–%20RecallKoordinator"
           class="block btn w-full text-center justify-center"
           @click="mobileNavOpen = false"
         >

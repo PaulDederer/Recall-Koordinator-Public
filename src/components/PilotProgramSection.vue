@@ -72,7 +72,7 @@
             <p class="text-gray-600 mb-6">
               <span class="font-semibold">Hinweis:</span> Das Produkt wird kontinuierlich weiterentwickelt. Als Pilotpraxis profitieren Sie von frühen Features und direktem Einfluss.
             </p>
-            <a href="#booking" class="btn inline-flex">Jetzt bewerben – begrenzte Plätze</a>
+            <a href="mailto:contact.me@jpcodelabs.de?subject=Pilotpraxis%20Bewerbung%20–%20RecallKoordinator" class="btn inline-flex">Kostenlos als Pilotpraxis starten – begrenzte Plätze</a>
           </div>
         </div>
       </div>
