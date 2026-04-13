@@ -5,8 +5,34 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>recall-koordinator</title>
-    <script type="module" crossorigin src="/assets/index-DDLLlKqL.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CXWCVfj3.css">
+    <!-- Google tag (gtag.js) - loaded only after cookie consent -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      // Default: deny analytics storage until user consents
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied'
+      });
+      gtag('js', new Date());
+      gtag('config', 'G-13DH1MNWTG');
+
+      function loadGtagScript() {
+        if (document.getElementById('gtag-script')) return;
+        var s = document.createElement('script');
+        s.id = 'gtag-script';
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-13DH1MNWTG';
+        document.head.appendChild(s);
+      }
+
+      // Check if user already consented
+      if (localStorage.getItem('cookie-consent') === 'accepted') {
+        gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        loadGtagScript();
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DMVl3p85.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BbjD6fXO.css">
   </head>
   <body>
     <div id="app"></div>
